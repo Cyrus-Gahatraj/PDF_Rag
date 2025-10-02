@@ -31,4 +31,4 @@ class Query(Base):
     created_at =  Column(TIMESTAMP(timezone=True), 
                         nullable=False, server_default=text('NOW()'))
     
-    document_id = Column(Integer, ForeignKey("documents.id"), nullable=False)
+    document_id = Column(Integer, ForeignKey("documents.id", ondelete='CASCADE'), nullable=False)
