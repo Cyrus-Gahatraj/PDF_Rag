@@ -1,0 +1,13 @@
+langchain>=0.3.27
+langchain-community
+langchain-ollama
+chromadb
+ollama
+unstructured[pdf]
+fastapi[all]
+SQLAlchemy==2.0.43
+psycopg2==2.9.10
+passlib[argon2]
+python-jose
+streamlit
+requests
